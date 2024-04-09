@@ -30,6 +30,28 @@ const _nav = [
     icon: <FontAwesomeIcon icon={faHome} className="nav-icon" />,
   },
   {
+  component: CNavGroup,
+  name: 'External Resources',
+  icon: <FontAwesomeIcon icon={faLink} className="nav-icon" />,
+  items: [
+    {
+      component: CNavItem,
+      name: 'GoDaddy',
+      to: 'https://www.godaddy.com',
+    },
+    {
+      component: CNavItem,
+      name: 'SiteGround',
+      to: 'https://www.siteground.com',
+    },
+    {
+      component: CNavItem,
+      name: 'Register.com',
+      to: 'https://www.register.com',
+    },
+  ],
+},
+  {
     component: CNavTitle,
     name: 'Identity Management',
   },
