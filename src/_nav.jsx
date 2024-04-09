@@ -31,10 +31,6 @@ const _nav = [
   },
   {
     component: CNavTitle,
-    name: 'External Links',
-  },
- {
-    component: CNavTitle,
     name: 'Identity Management',
   },
   {
