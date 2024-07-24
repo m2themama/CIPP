@@ -241,6 +241,18 @@ const DeployJITAdmin = () => {
                           <RFFSelectSearch
                             label="Expiration Action"
                             values={[
+                              { value: 'DeleteUser', name: 'Delete User' },
+                            ]}
+                            placeholder="Select action for when JIT expires"
+                            name="expireAction"
+                          />
+                        </CCol>
+                      </CRow>
+                      <CRow className="mb-3">
+                        <CCol>
+                          <RFFSelectSearch
+                            label="Expiration Action"
+                            values={[
                               { value: 'RemoveRoles', name: 'Remove Admin Roles' },
                               { value: 'DisableUser', name: 'Disable User' },
                               { value: 'DeleteUser', name: 'Delete User' },
