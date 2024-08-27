@@ -718,5 +718,13 @@
     "IsSystem": true,
     "Name": "Yammer Administrator",
     "ObjectId": "810a2642-a034-447f-a5e8-41beaa378541"
+  },
+  {
+    "ExtensionData": {},
+    "Description": "Manage all aspects of organizational branding in a tenant.",
+    "IsEnabled": true,
+    "IsSystem": true,
+    "Name": "Organizational Branding Administrator",
+    "ObjectId": "92ed04bf-c94a-4b82-9729-b799a7a4c178"
   }
 ]
