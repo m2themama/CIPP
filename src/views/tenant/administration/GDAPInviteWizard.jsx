@@ -261,7 +261,8 @@ const GDAPInviteWizard = () => {
     {
       Name: 'Kaizala Administrator',
       ObjectId: '74ef975b-6605-40af-a5d2-b9539d836353'
-        {
+    },
+    {
       Name: 'Knowledge Administrator',
       ObjectId: 'b5a8dcf3-09d5-43a9-a639-8e29ef291470',
     },
